@@ -1,0 +1,5 @@
+<div class="greeting-box">
+    <h2>{{ message }}</h2>
+    <input [(ngModel)]="name" placeholder="Enter your name">
+    <p *ngIf="name">Welcome, {{ name }}!</p>
+  </div>

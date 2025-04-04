@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <app-hello-world></app-hello-world>
-</body>
-</html>
+<h1>My First Angular App</h1>
+<app-greeting></app-greeting>
+<app-counter></app-counter>
+<app-message-box 
+  [title]="'Important Message'" 
+  (buttonClicked)="onButtonClick($event)">
+</app-message-box>
